@@ -1,0 +1,61 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem 0;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  gap: .9375rem;
+  align-items: center;
+  font-size: 12px;
+}
+
+.link{
+  color: #FF6060;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.logo{
+  width: 9.0625rem;
+}
+
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px){
+  .header{
+    padding: 1.875rem 0;
+  }
+
+  .logo {
+      width: 10.625rem;
+  }
+
+  .navigation{
+    font-size: 16px;
+    gap: 1.25rem;
+  }
+}
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px) {
+  .header {
+    padding: 1.875rem 0;
+  }
+
+  .logo {
+    width: auto;
+  }
+
+  .navigation {
+    font-size: 24px;
+    gap: 3.5625rem;
+  }
+}
