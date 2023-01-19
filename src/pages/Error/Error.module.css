@@ -1,0 +1,59 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 8.3125rem;
+  text-align: center;
+  color: #FF6060;
+  height: 70vh;
+  justify-content: center;
+}
+
+.contentTitles{
+  display: flex;
+  flex-direction: column;
+  gap: .6875rem;
+}
+
+.codeError{
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.message{
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.link{
+  color: #FF6060;
+  font-size: .875rem;
+}
+
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px){
+  .codeError {
+      font-size: 9.375rem;
+    }
+    
+  .message {
+    font-size: 1.5625rem;
+  }
+
+  .link {
+    font-size: 1.125rem;
+  }
+}
+
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px){
+  .codeError {
+      font-size: 18rem;
+    }
+
+  .message {
+    font-size: 2.25rem;
+  }
+
+}
