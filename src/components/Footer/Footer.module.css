@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 209px;
+  gap: 2.8125rem;
+  font-size: .75rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+
+.logo{
+  width: 122px;
+}
+
+
+@media screen and (min-width: 992px) {
+  .footerContainer{
+    margin-top: 85px;
+    font-size: 1.5rem;
+  }
+}

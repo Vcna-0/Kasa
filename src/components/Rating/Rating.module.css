@@ -1,0 +1,17 @@
+.stars{
+  width: 15px;
+}
+
+/*  === TABLET ===  */
+@media screen and (min-width: 550px){
+  .stars {
+    width: 20px;
+  }
+}
+
+/*  === DESKTOP ===  */
+@media screen and (min-width: 992px){
+  .stars {
+      width: 30px;
+  }
+}

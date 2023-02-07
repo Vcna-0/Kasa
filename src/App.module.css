@@ -7,18 +7,5 @@
 }
 
 body{
-  margin: 0 1.25rem 0 1.25rem;
   font-family: 'Montserrat', sans-serif;
-}
-
-@media screen and (min-width: 550px){
-  body {
-      margin: 0 3.125rem 0 3.125rem;
-    }
-}
-
-@media screen and (min-width: 992px) {
-  body{
-    margin: 0 6.25rem 0 6.25rem;
-  }
 }

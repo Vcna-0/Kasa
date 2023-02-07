@@ -3,6 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 1.25rem 0;
+  width: 90%;
+  margin: auto;
 }
 
 .navigation{
@@ -47,6 +49,9 @@
 /*  === DESKTOP ===  */
 @media screen and (min-width: 992px) {
   .header {
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
     padding: 1.875rem 0;
   }
 
