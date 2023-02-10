@@ -3,9 +3,9 @@ import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import HousingDetails from "./pages/HousingDetails/HousingDetails"
 import Error from "./pages/Error/Error"
-import "./App.module.css"
 import Header from './components/Header/Header';
 import Footer from "./components/Footer/Footer"
+import "./App.module.css"
 
 
 function App() {

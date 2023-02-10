@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 1.375rem;
-
 }
 
 .cardGrid{
@@ -19,27 +18,25 @@
 @media screen and (min-width: 550px) {
   .cardGrid {
       grid-template-columns: repeat(2, 1fr);
-      grid-column-gap: 1.25rem;
+      grid-column-gap: 20px;
     }
 
     .mainContainer {
-      gap: 2.5rem;
+      gap: 40px;
     }
 }
 
-
 /*  === DESKTOP ===  */
-@media screen and (min-width: 1050px){
+@media screen and (min-width: 992px){
     .cardGrid {
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 3.75rem;
-        grid-row-gap: 3.125rem;
+        grid-column-gap: 60px;
+        grid-row-gap: 50px;
+        width: 95%;
+        max-width: 1440px;
         margin: auto;
-        padding: 3.5rem 3.125rem;
+        padding: 56px 50px;
         border-radius: 25px;
         background-color: #F6F6F6;
-        max-width: 1440px;
-        width: 95%;
-        margin: auto;
       }
 }

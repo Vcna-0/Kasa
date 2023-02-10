@@ -1,4 +1,3 @@
-import React from 'react'
 import Banner from '../../components/Banner-about/BannerAbout'
 import Dropdown from '../../components/Dropdown/Dropdown'
 import DataAbout from "../../data/aboutData.json";

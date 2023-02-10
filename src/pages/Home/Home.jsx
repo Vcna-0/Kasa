@@ -1,8 +1,7 @@
-import React from 'react'
 import Banner from '../../components/Banner-home/BannerHome'
 import Card from '../../components/Card/Card'
-import styles from './Home.module.css'
 import housingDetailsData from "../../data/locationsData.json";
+import styles from './Home.module.css'
 
 
 export default function Home() {

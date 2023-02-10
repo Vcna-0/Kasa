@@ -1,4 +1,3 @@
-import React from 'react'
 import BannerImg from "../../assets/Banner-about.png"
 import styles from "./BannerAbout.module.css"
 

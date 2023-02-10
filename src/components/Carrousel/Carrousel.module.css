@@ -45,7 +45,7 @@
 /*  === TABLET ===  */
 @media screen and (min-width: 550px) {
   .carrousel {
-      height: 310px;
+    height: 19.375rem;
   }
 
   .buttonLeft {
@@ -57,7 +57,7 @@
   }
 
   .arrows {
-    width: 25px;
+    width: 1.5625rem;
   }
 
   .count{
@@ -73,7 +73,7 @@
 /*  === DESKTOP ===  */
 @media screen and (min-width: 992px){
   .carrousel {
-      height: 415px;
+      height: 25.9375rem;
       max-width: 1440px;
       margin: auto;
   }
@@ -87,7 +87,7 @@
   }
 
   .arrows {
-    width: 46px;
+    width: 2.875rem;
   }
 
   .count{

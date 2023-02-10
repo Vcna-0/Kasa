@@ -1,26 +1,26 @@
 .tagsContainer{
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  margin: 10px 0;
+  gap: .625rem;
+  margin: .625rem 0;
 }
 
 .tag{
   min-width: 84px;
+  padding: .1875rem .9375rem;
+  text-align: center;
   border-radius: 5px;
-  padding: 3px 15px;
   background-color: #FF6060;
   color: #FFF;
-  font-size: 10px;
+  font-size: .625rem;
   font-weight: 500;
-  text-align: center;
 }
 
 /*  === TABLET ===  */
 @media screen and (min-width: 550px){
   .tag{
     min-width: 95px;
-    font-size: 12px;
+    font-size: .75rem;
   }
 }
 
@@ -28,6 +28,6 @@
 @media screen and (min-width: 992px){
   .tag{
     min-width: 115px;
-    font-size: 14px;
+    font-size: .875rem;
   }
 }

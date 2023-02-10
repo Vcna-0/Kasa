@@ -28,13 +28,13 @@
 /*  === TABLET ===  */
 @media screen and (min-width: 550px) {
   .banner {
-    height: 150px;
+    height: 9.375rem;
   }
 
   .bannerTxt{
-    top: 33px;
-    font-size: 35px;
-    width: 330px;
+    top: 2.0625rem;
+    font-size: 2.1875rem;
+    width: 20.625rem;
   }
 }
 
@@ -44,15 +44,15 @@
     max-width: 1440px;
     width: 95%;
     margin: auto;
-    height: 223px;
+    height: 13.9375rem;
     border-radius: 25px;
   }
 
   .bannerTxt{
     width: 100%;
     left: 0;
-    top: 78px;
-    font-size: 48px;
+    top: 4.875rem;
+    font-size: 3rem;
     text-align: center;
   }
 }

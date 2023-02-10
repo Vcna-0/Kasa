@@ -25,8 +25,14 @@
   text-decoration: underline;
 }
 
+.linkActive{
+  color: #FF6060;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 .logo{
-  width: 9.0625rem;
+  width: 145px;
 }
 
 
@@ -37,7 +43,7 @@
   }
 
   .logo {
-      width: 10.625rem;
+    width: 10.625rem;
   }
 
   .navigation{
@@ -45,7 +51,8 @@
     gap: 1.25rem;
   }
 
-  .link{
+  .link,
+  .linkActive{
     text-transform: none;
   }
 }
@@ -60,7 +67,7 @@
   }
 
   .logo {
-    width: auto;
+    width: 13.125rem;
   }
 
   .navigation {

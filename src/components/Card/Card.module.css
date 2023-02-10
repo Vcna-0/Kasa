@@ -28,8 +28,8 @@
 
 .cardTitle{
   position: absolute;
-  bottom: 15px;
-  left: 15px;
+  bottom: .9375rem;
+  left: .9375rem;
   width: 75%;
   font-size: 1.125rem;
   font-weight: 500;

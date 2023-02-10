@@ -1,12 +1,11 @@
 .content{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-top: 12.1875rem;
   gap: 8.3125rem;
   text-align: center;
   color: #FF6060;
-  height: 63.6vh;
-  justify-content: center;
-
 }
 
 .contentTitles{
@@ -16,45 +15,49 @@
 }
 
 .codeError{
-  font-size: 6rem;
+  font-size: 96px;
   font-weight: 700;
 }
 
 .message{
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .link{
   color: #FF6060;
-  font-size: .875rem;
+  font-size: 14px;
 }
 
 
 /*  === TABLET ===  */
 @media screen and (min-width: 550px){
   .codeError {
-      font-size: 9.375rem;
-    }
+    font-size: 150px;
+  }
     
   .message {
-    font-size: 1.5625rem;
+    font-size: 25px;
   }
 
   .link {
-    font-size: 1.125rem;
+    font-size: 18px;
   }
 }
 
 
 /*  === DESKTOP ===  */
 @media screen and (min-width: 992px){
+  .content{
+    margin-top: 9.9375rem;
+  }
+  
   .codeError {
-      font-size: 18rem;
+      font-size: 288px;
     }
 
   .message {
-    font-size: 2.25rem;
+    font-size: 36px;
   }
 
 }
