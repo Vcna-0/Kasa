@@ -2,7 +2,7 @@
 
 Ma solution au __PROJET 7 - Créez une application web de location immobilière avec React__ du parcours de formation __developpeur web__ chez Openclassrooms.
 
-[Visiter le site](vcna-0.github.io/Kasa/)
+[Visiter le site](https://vcna-0.github.io/Kasa/)
 
 ![Logo](./src/assets/Logo-header.svg) 
 
