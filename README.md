@@ -10,7 +10,7 @@ Ma solution au __PROJET 7 - Créez une application web de location immobilière 
 
 - [Le projet](#le-projet)
   - [Installer et executer le projet](#installer-et-executer-le-projet)
-  - [contexte](#contexte)
+  - [Contexte](#contexte)
   - [Éléments fournis pour la réalisation du projet](#éléments-fournis-pour-la-réalisation-du-projet)
   - [Contraintes](#contraintes)
 - [Mon processus](#mon-processus)
