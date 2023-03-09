@@ -5,11 +5,16 @@ import Rating from '../../components/Rating/Rating';
 import Dropdown from '../../components/Dropdown/Dropdown'
 import housingData from "../../data/locationsData.json";
 import styles from './HousingDetails.module.css'
+import { Navigate } from 'react-router-dom'
 
 
 export default function HousingDetail() {
   const { id } = useParams()
   let housing = housingData.find(element => element.id === id)
+
+   if (!housing) {
+        return <Navigate to="/Error404"/>;
+    }
 
   return (
     <div className= { styles.mainContainer }>
