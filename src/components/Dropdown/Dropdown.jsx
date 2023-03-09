@@ -6,13 +6,13 @@ import styles from "./Dropdown.module.css"
 export default function Dropdown({ content, title }) {
     const [open, setOpen] = useState(false);
 
-    const handleOpen = () => {
+    const dropdownOpen = () => {
         setOpen(!open);
       };
 
   return (
     <div className={ styles.container }>
-      <button className={ styles.button } onClick={ handleOpen }>
+      <button className={ styles.button } onClick={ dropdownOpen }>
         <h1 className={ styles.title }>{ title }</h1>
         <span className={ styles.arrowContent }>
           {open ? 

@@ -8,7 +8,7 @@ export default function Card({housingDetails}) {
       <Link to={ `/housingDetails/${housingDetails.id}` }>
         <img className={ styles.cardImg } src={ housingDetails.cover } alt="" />
         <div className= { styles.imgFilter }></div>
-        <h2 className= { styles.cardTitle } >{ housingDetails.title }</h2>
+        <h2 className= { styles.cardTitle }>{ housingDetails.title }</h2>
       </Link>
     </div>
   )
