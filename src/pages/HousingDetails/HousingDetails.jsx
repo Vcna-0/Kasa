@@ -1,11 +1,12 @@
 import { useParams } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 import Carrousel from '../../components/Carrousel/Carrousel';
 import Tags from "../../components/Tag/Tag"
 import Rating from '../../components/Rating/Rating';
 import Dropdown from '../../components/Dropdown/Dropdown'
 import housingData from "../../data/locationsData.json";
 import styles from './HousingDetails.module.css'
-import { Navigate } from 'react-router-dom'
+
 
 
 export default function HousingDetail() {
